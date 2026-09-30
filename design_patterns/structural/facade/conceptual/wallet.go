@@ -15,7 +15,7 @@ func newWallet() *Wallet {
 func (w *Wallet) creditBalance(amount int) {
 	w.balance += amount
 	fmt.Println("Wallet balance added successfully")
-	return
+	// return
 }
 
 func (w *Wallet) debitBalance(amount int) error {
